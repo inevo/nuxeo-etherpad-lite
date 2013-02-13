@@ -10,4 +10,14 @@
   <artifactId>nuxeo-etherpad-lite-core</artifactId>
   <name>nuxeo-etherpad-lite-core</name>
   <description/>
+  <dependencies>
+    <dependency>
+      <groupId>org</groupId>
+      <artifactId>etherpad_lite_client</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.nuxeo.ecm.platform.realtime.edit</groupId>
+      <artifactId>nuxeo-realtime-edit-api</artifactId>
+    </dependency>
+  </dependencies>
 </project>

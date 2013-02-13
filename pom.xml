@@ -15,6 +15,20 @@
     <module>java-etherpad-lite</module>
     <module>nuxeo-etherpad-lite-core</module>
   </modules>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org</groupId>
+        <artifactId>etherpad_lite_client</artifactId>
+        <version>1.2</version>
+      </dependency>
+      <dependency>
+        <groupId>org.nuxeo.ecm.platform.realtime.edit</groupId>
+        <artifactId>nuxeo-realtime-edit-api</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
   <repositories>
     <repository>
       <id>public</id>
