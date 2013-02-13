@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<component name="org.nuxeo.ecm.platform.realtime.edit.etherpad.EtherpadService" version="1.0">
+
+  <implementation class="org.nuxeo.ecm.platform.realtime.edit.etherpad.EtherpadService" />
+
+  <service>
+      <provide interface="org.nuxeo.ecm.platform.realtime.edit.etherpad.EtherpadService" />
+  </service>
+  
+</component>

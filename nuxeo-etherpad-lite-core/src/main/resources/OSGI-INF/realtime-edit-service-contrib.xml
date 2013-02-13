@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<component name="org.nuxeo.ecm.platform.realtime.edit.etherpad" version="1.0">
+  
+  <extension target="org.nuxeo.ecm.platform.realtime.edit.RealtimeEditServiceManager" point="services">
+        <service name="etherpad" class="org.nuxeo.ecm.platform.realtime.edit.etherpad.EtherpadService">
+        	<supports>
+        		<mimeType>text/plain</mimeType>
+        		<mimeType>text/html</mimeType>
+        	</supports>
+        </service>
+  </extension>
+    
+</component>
