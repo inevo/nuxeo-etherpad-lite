@@ -12,7 +12,7 @@
   <packaging>pom</packaging>
   <description/>
   <modules>
-    <module>java-etherpad-lite</module>
+    <!--module>java-etherpad-lite</module-->
     <module>nuxeo-etherpad-lite-core</module>
   </modules>
   <dependencyManagement>
